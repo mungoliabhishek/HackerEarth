@@ -1,0 +1,19 @@
+TravellingAnt Logic
+
+Couldn't get it passed in within time Limits.
+
+My logic ~ Simple DP to find number of ways, it reached starting point at end.
+Complexity O(T*n)
+Space Complexity O(T*n)
+
+
+AndSum Awesome Question
+
+Suppose n elements have bit 'x' set.
+Now these n elements can come together in x = (nC1 + nc2 +..ncn) possible combinations
+So, bit 'b' will be set in all these subsets, resulting in x * (1<<b) adding to the result.
+
+
+[[See implementation]]
+Happy Coding
+:)

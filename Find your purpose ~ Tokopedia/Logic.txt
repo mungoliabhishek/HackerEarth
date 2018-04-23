@@ -1,0 +1,6 @@
+Coded a brute force and found person loses if number of disk person starts with 0,2,5 or 7 in unit place.
+
+
+[[See implementation]]
+Happy Coding
+:)
