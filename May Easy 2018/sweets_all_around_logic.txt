@@ -2,7 +2,7 @@
 2. Though their preference of min and max sweet may be large <=10^9, there are 10^5 students in total
 3. So, sort all numbers and compress the range.
 4. In this reduced dimension, Add +1 to min and -1 to max+1
-5. Now, simply iterate through these n ranges and find where max occurs, that is number of studnets who will be happy and chocolates required expand the index.
+5. Now, simply iterate through these n ranges and find where max occurs, that is number of studnets who will be happy and for chocolates required expand the index.
 
 
 [[See implementation]]
