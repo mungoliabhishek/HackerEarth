@@ -1,0 +1,7 @@
+Simply remove 0 element from beginning, binary search for min and max index.
+Repeat the same for all the indexes till n.
+
+
+[[See implementation]]
+Happy Coding
+:)
