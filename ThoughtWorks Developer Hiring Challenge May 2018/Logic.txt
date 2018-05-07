@@ -1,0 +1,20 @@
+Digit number
+
+For 1 length number possible elements = 3
+For 2 length = 3*3 =9
+For 3 length = 3*3*3 =27
+and so on,
+
+simply take the prefix sum and return the right index depending on the query.
+
+
+
+Compare String
+Use set, and keep in it all the index where the two strings differ.
+
+Now for every query, just do the check that now, which is the first index where they differ and which is larger, that't it.
+
+
+[[See implementation]]
+Happy Coding
+:)
