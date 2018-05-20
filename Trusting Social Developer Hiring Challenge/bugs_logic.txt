@@ -1,0 +1,4 @@
+First mapped all values to lower scale.
+
+Next simply used BIT Tree and binary search to find index at which n/3rd element is present.
+Need to take care of corner case of duplicate element presence.
