@@ -1,0 +1,80 @@
+#Derived binaries
+target
+../ui-tests/test-output
+[Bb]in
+[Bb]uild
+*.class
+*.[wej]ar
+*.[ao]
+*.log
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.dynlib
+
+# IDE project files etc
+.classpath
+.project
+.settings
+.idea
+.gwt
+.metadata
+
+# Various editors tmp files
+# Do not include '.*' here; would disable .gitignore itself
+.#*
+.~*
+*~
+\#*
+~$*
+
+# User local settings
+environment.local.properties
+
+#Temps and old ones and backups
+*.versionsBackup
+*.tmp
+*.bac
+*.bak
+*.temp
+tmp
+x.x*
+#Just to be on the safe side
+.svn
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.tar
+*.zip
+
+# OS specifics
+.DS_Stor
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+#Milla's helpers
+pull-push.sh
+*test.xml
+.checkstyle
+/ui-webapp/src/main/resources/rebel.xml
+/ui-webapp/src/main/javascript/lib/jquery.min-1.11.1.js
+/ui-webapp/src/main/javascript/lib/mobile-detect.min-0.4.0.js
+/ui-webapp/src/main/javascript/lib/moment.min-2.7.0.js
+/ui-webapp/src/main/javascript/lib/mustache.min-0.8.1.js
+/ui-webapp/src/main/javascript/lib/rangy-core-1.2.3.js
+/ui-webapp/src/main/javascript/lib/underscore-min.map
+/ui-webapp/src/main/javascript/lib/underscore-min-1.6.0.js
+/ui-webapp/src/main/javascript/lib/bowser.min-0.7.2.js
+**/.DS_Store
