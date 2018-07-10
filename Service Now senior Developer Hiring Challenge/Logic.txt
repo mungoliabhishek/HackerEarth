@@ -1,0 +1,38 @@
+Fill boxes logic
+
+3 cases, after sorting of box and balls
+
+1 2 3
+1 2 3
+
+or
+
+1 2 10 20 30
+10 20 30
+
+or
+
+10 20 30
+1 2 3 10 20 30
+
+In first case, both pointers move simultaneously
+In second case, first pointer move till 10 and second pointer has not made any movement yet and then both move
+In third case second pointer moves till 10 and then both makes progress
+
+
+So, I simply binary search for box satisfying first ball, suppose index i
+Then binary search for ball 2, but index of box from i+1 to n
+and so on....
+
+[[See implementation]]
+Happy Coding
+:)
+
+Routes logic
+Dijkstras, with taking caring to flight time, halting time
+Also optimal path needs to be of shortest time alsong with cheapest cost.
+
+
+[[See implementation]]
+Happy Coding
+:)

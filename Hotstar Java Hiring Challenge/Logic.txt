@@ -1,0 +1,8 @@
+Number of 1's shpuld be divisible by 3
+
+Now what the number i.e. each part equal to??
+Last number, keep checking till mcount/3 number of 1's encountered.
+
+[[See implementation]]
+Happy Coding
+:)
